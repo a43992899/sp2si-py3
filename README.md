@@ -5,9 +5,9 @@
 * Link for the [project webpage](https://jayneelparekh.github.io/icassp20/)
 
 # Setup
-You can setup a new conda environment with the ```environment.yml``` file (recommended). You can start with [miniconda installation](https://docs.conda.io/en/latest/miniconda.html) if you are completely unfamiliar with anaconda   
+You can setup a new env using the requirenments.txt.  
    ```sh
-   conda env create -f environment.yml
+   pip install requirements.txt
    ```
 You will need to download the dataset (NUS-48E), models weigths, and clone a repo for melody extraction to run this code. 
 
